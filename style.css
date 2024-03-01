@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+ul ol{
+    taxt list-style-type: none;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* navbar start */
+nav{
+    background-color: #252e30;
+    color: white;
+}
+#navmanu ul li a{
+    color: white;
+    padding: 30px 20px;
+}
+#navmanu ul li a:hover{
+    color: #2ecc71;
+}
+/* navbar end */
+
+#banner{
+    background-image: url(./images/banner.png);
+    height: 997px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner .container .banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 997px;
+   
+}
+#banner .container .banner-content h1{
+    text-transform: uppercase;
+ color: white;
+ font-size: 60px;
+ border-top: 1px solid #fff;
+ border-bottom: 1px solid #fff;
+ 
+}
+
+#banner .container a{
+    margin-top: 50px;
+    color: #fff;
+    font-size: 16px;
+ padding: 19px 35px;
+ border: 1px solid #fff;
+}
+/* VALUES START */
+#valus{
+    margin: 100PX 0;
+   
+}
+.values{
+    padding: 0 26px;
+}
+.values h2{
+    font-size: 30px;
+}
+.values p{
+    font-size: 18px;
+}
+.goles{
+    padding: 0 26px;
+}
+.goles h2{
+    font-size: 30px;
+}
+.goles p{
+    font-size: 18px;
+}
+.hobbies{
+    padding: 0 26px; 
+}
+.hobbies h2{
+    font-size: 30px;
+}
+.hobbies p{
+    font-size: 18px;
+}
+/* about me st */
+
+
+/* about me end */
+
+
